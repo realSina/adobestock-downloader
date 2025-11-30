@@ -34,7 +34,7 @@ Clone or download the repository, and make sure you have the `cookies.txt` file 
 You can modify the script by updating the following variables:
 
 - The cookie file: Ensure the `cookies.txt` file is available.
-- If needed, change the `countryCode` & `userId` and other settings in the script to fit your location or preferences.
+- If needed, change the `countryCode`, `userId` & `memberId` and other settings in the script to fit your location or preferences.
 
 ### 4. Run the Script
 
