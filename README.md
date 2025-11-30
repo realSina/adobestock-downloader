@@ -38,8 +38,7 @@ You can modify the script by updating the following variables:
 
 ### 4. Run the Script
 
-You can call the script via URL with a query parameter like so:
-http://yourserver.com/adobestock-downloader.php?url=<adobe_stock_content_url>
+You can call the script via URL with a query parameter like so: http://yourserver.com/adobestock-downloader.php?url=<adobe_stock_content_url>
 
 The script will return a download link for the requested Adobe Stock content.
 
