@@ -93,7 +93,7 @@ if(isset($_GET['url'])) {
         if($is_video) {
             $vid_data = json_decode($vid_data, true);
             unset($vid_data["keywords"]);
-            $_data = array('id' => 'quotaConfirm', 'asset_details' => $vid_data, 'use_credits' => false, 'ims_profile' => array('userId' => '74801D4E6572C2130A495E27@AdobeID', 'countryCode' => 'DE'), 'license_id' => 3, 'content_id' => $imageid, 'team_profile_type' => 'personal', 'is_signed_in' => true, 'member_id' => 227641201, 'member_type' => 'stk', 'test_and_target' => array('is_member' => true, 'has_subscription' => true, 'country_code' => 'UK', 'content_type' => 'Video', 'price_tier' => 'none', 'user_type' => 'stk', 'state_name' => 'quotaConfirm'));
+            $_data = array('id' => 'quotaConfirm', 'asset_details' => $vid_data, 'use_credits' => false, 'ims_profile' => array('userId' => 'XXXXXXXXXXXXXXXXXXXXXXXX@AdobeID', 'countryCode' => 'DE'), 'license_id' => 3, 'content_id' => $imageid, 'team_profile_type' => 'personal', 'is_signed_in' => true, 'member_id' => 1000000, 'member_type' => 'stk', 'test_and_target' => array('is_member' => true, 'has_subscription' => true, 'country_code' => 'UK', 'content_type' => 'Video', 'price_tier' => 'none', 'user_type' => 'stk', 'state_name' => 'quotaConfirm'));
             $vid_data = json_encode($_data);
             
             $url = 'https://stock.adobe.com/de/Ajax/Checkout/4';
